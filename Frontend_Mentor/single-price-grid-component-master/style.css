@@ -3,10 +3,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
 }
 
 section {
+    justify-content: center;
     background-color:#ECEBF0 ;
     height: 400px;
     width: 30%;
@@ -16,11 +16,11 @@ article {
     border: red solid 2px;
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+.attribution {
+    font-size: 11px;
+    text-align: center;
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
