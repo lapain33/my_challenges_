@@ -1,19 +1,35 @@
 body {
-    background-color: #FFFFFF;
+    background-color:hsl(204, 43%, 93%);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 section {
-    justify-content: center;
-    background-color:#ECEBF0 ;
     height: 400px;
-    width: 30%;
+    width: 50%;
 }
 
 article {
-    border: red solid 2px;
+    padding: 20px;
+}
+
+#art_1 {
+    background-color: #FFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#art_2 {
+    background-color: hsl(179, 62%, 43%);
+}
+
+#art_3 {
+    background-color: hsl(179,62%, 49%);
+}
+
+#content {
+    display: flex;
 }
 
 .attribution {
